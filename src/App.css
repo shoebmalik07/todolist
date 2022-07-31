@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+body{
+  background-color: papayawhip;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-div{
+ text-align: center;
+ /* border: 2px solid red; */
+ margin-top: 5rem;
+ /* width: 10rem; */
+ margin-bottom: 3rem;
 }
+.main-div input{
+  width: 18rem;
+  margin-right: 1rem;
+  height: 1.5rem;
+  padding: 0.2rem 0;
+  border: 2px solid white;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.main-div button{
+  margin-right: 1rem;
+  padding: 0.4rem 2rem;
   color: white;
+  background: #ff6f47;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+/* .main-div button:hover{
+  background-color: white;
+  color: #ff6f47;
+  
+} */
+.main-div select{
+  width: auto;
+   padding: 0.4rem 0.5rem;
+   font-size: 1rem;
+   background: #ff6f47;
+   color: white;
+   border: 2px solid white;
+   border-radius: 5px;
+
+
+}
+.todolist-div{
+  background: white;
+  font-size: 1.5rem;
+  color: black;
+  display: flex;
+  margin: auto;
+  margin-bottom: 0.5rem;
+
+  justify-content: space-between;
+  align-items: center;
+  max-width: 50rem;
+
+  
+
+}
+.todolist-div li {
+  flex: 1;
+  font-family: monospace;
+  /* list-style: none; */
+  /* background-color: white; */
+}
+.complete-button{
+  background: #ff6f47;
+  color: white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  /* border-radius: 5px; */
+  margin-right: 0.5rem;
 }
 
-.App-link {
-  color: #61dafb;
+/* .todo-item{
+  max-width: 10rem;
+  border: 2px solid red;
+} */
+
+.completed{
+  text-decoration: line-through;
+  opacity: 0.5;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
